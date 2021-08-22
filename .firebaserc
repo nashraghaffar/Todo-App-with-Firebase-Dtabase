@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "default": "todoapp-jp"
+  }
+}
+
+{
+  "hosting": {
+    "site": "todoApp-jp",
+    "public": "public",
+    ...
+    ...
+}

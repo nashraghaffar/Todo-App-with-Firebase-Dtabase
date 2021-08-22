@@ -1,0 +1,148 @@
+.main {
+    margin-top: 20px;
+    /* background-color: red; */
+    border: lightblue solid 5px;
+    height: 600px !important;
+    /* margin: auto auto auto auto; */
+    margin: 20px;
+    /* width: 100% !important; */
+}
+
+.heading {
+    width: 100% !important;
+    height: 100px;
+    background: rgb(29, 29, 168);
+    background: linear-gradient(90deg, rgba(29, 29, 168, 1) 24%, rgba(5, 185, 222, 1) 91%);
+}
+
+.heading h1 {
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    color: rgb(238, 234, 234);
+    padding-top: 20px;
+}
+
+.div2 {
+    margin-top: 3%;
+    /* margin-left: 25%; */
+}
+
+.div2 input {
+    width: 50%;
+    height: 40px!important;
+    border-radius: 18px !important;
+    border-image: linear-gradient(to right, rgb(7, 40, 190), rgb(0, 183, 255)) 1 !important;
+    border: 2px solid;
+    outline: none;
+    font-family: 'Merriweather', serif;
+}
+
+.div3 {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(que.jpg); */
+    /*To make blurry pic*/
+    background: url('que2.png') !important;
+    /* background-position: fixed !important; */
+    /* opacity: 0.6; */
+    /* background-color: red !important; */
+    background-repeat: no-repeat !important;
+    height: 50%;
+    overflow-x: auto;
+    /* overflow: scroll !important; */
+    background-position: center !important;
+    background-size: 200px 300px !important;
+}
+
+
+/* 
+.add {
+    background-color: blue;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin-left: 48%;
+    /* margin-top: 31%; */
+
+
+/* } */
+
+.icon-web {
+    /* background-color: red; */
+    height: 40px !important;
+    background-color: rgb(9, 148, 241);
+    border-radius: 10px;
+    width: 30px !important;
+}
+
+.div2 button {
+    background-color: rgb(9, 148, 241);
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+/* SP */
+
+.lee {
+    /* background-color: white; */
+    background-color: rgb(238, 238, 238);
+    color: black;
+    box-shadow: 2px 2px 2px rgb(37, 74, 241);
+    height: 40px;
+    list-style: none;
+    width: 100%;
+    margin-top: 14px;
+    margin-left: 10px;
+    position: relative;
+    font-size: 2vh;
+    font-family: 'Merriweather', serif;
+    /* left: 10px; */
+    right: 30px;
+    /* margin-right: 30px !important; */
+}
+
+.cut-btn {
+    outline: none !important;
+    border: none;
+    /* background-color: #fff; */
+    float: right;
+    background-color: rgb(238, 238, 238);
+    margin-right: 20px;
+}
+
+.js-cross-btn {
+    background-color: rgb(238, 238, 238);
+    height: 20px;
+    width: 20px;
+}
+
+.edit-btn {
+    outline: none !important;
+    border: none;
+    /* background-color: #fff; */
+    float: right;
+    background-color: rgb(238, 238, 238);
+    margin-right: 20px;
+}
+
+.js-edit-btn {
+    height: 20px;
+    width: 20px;
+}
+
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2ba8f0;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
